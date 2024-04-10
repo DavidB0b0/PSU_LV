@@ -26,9 +26,9 @@ def main():
     avg_words_ham = average_words_per_message(ham_messages)
     avg_words_spam = average_words_per_message(spam_messages)
 
-    print("ProsjeËan broj rijeËi u ham porukama:", avg_words_ham)
-    print("ProsjeËan broj rijeËi u spam porukama:", avg_words_spam)
+    print("Prosje√®an broj rije√®i u ham porukama:", avg_words_ham)
+    print("Prosje√®an broj rije√®i u spam porukama:", avg_words_spam)
 
     spam_with_exclamation = count_exclamation(spam_messages)
-    print("Broj spam poruka koje zavröavaju uskliËnikom:", spam_with_exclamation)
+    print("Broj spam poruka koje zavr≈°avaju uskli√®nikom:", spam_with_exclamation)
 
